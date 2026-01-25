@@ -19,3 +19,10 @@ public class 231_Power of Two {
     }
 }
 }
+/
+// Optimized code using bit manipulation
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        return n > 0 && (n & (n - 1)) == 0;
+    }
+}
