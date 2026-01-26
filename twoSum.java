@@ -1,0 +1,29 @@
+import java.util.HashMap;
+
+public class twoSum {
+    class Solution {
+    public int[] twoSum(int[] nums, int target) {
+          HashMap<Integer, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+
+            if (map.containsKey(complement)) {
+                int j = map.get(complement);
+
+                // Return smaller index first
+                if (j < i) {
+                    return new int[] { j, i };
+                } else {
+                    return new int[] { i, j };
+                }
+            }
+
+            // Store number with its index
+            map.put(nums[i], i);
+        }
+
+        return new int[] {};
+    }
+}
+}
