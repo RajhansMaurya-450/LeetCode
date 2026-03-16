@@ -11,3 +11,4 @@ class Solution {
     }
 }
 //minimum difference between highest and lowest minimum k scores
+//sliding window approach
