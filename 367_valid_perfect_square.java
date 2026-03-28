@@ -19,3 +19,4 @@ public class 367_valid_perfect_square {
     }
 }
 }
+//binary search question
