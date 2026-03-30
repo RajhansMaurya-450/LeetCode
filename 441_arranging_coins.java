@@ -18,5 +18,5 @@ public class 441_arranging_coins {
 
         return (int) right; 
     }
-}
+}//binary search 
 }
