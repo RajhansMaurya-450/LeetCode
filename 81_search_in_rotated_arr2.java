@@ -33,7 +33,7 @@ public class 81_search_in_rotated_arr2 {
             }
         }
 
-        return false; 
+        return false; // binary search
     }
 }
 }
