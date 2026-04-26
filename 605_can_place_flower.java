@@ -24,4 +24,4 @@ public class 605_can_place_flower {
         return n <= 0;
     }
 }
-}
+}  //leetcode_605_can_plant_flower
