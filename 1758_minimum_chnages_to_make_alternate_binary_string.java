@@ -19,6 +19,7 @@ public class 1758_minimum_chnages_to_make_alternate_binary_string {
         }
 
         return Math.min(pattern1, pattern2);
-    }
+        
+    }  //1758_minimum_chnages_to_make_alternate_binary_string
 }
 }
