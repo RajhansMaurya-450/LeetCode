@@ -26,6 +26,6 @@ public class 1422_Maximum_score_after_splitting_string {
         }
 
         return maxScore;  
-    }//1422_Maximum_score_after_splitting_string
+    }
 }
 }
